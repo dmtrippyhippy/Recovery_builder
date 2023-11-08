@@ -8,7 +8,7 @@ export BRANCH="twrp-12.1" # the branch of manifest
 # about your device
 export DEVICE="tonga" # codename used in device tree
 export DT_LINK="https://github.com/twrpdtgen/android_device_motorola_tonga" # device tree link
-export DT_BRANCH="twrp" # device tree branch
+export DT_BRANCH="tonga_g-user-12-S3RQS32.20-42-10-12-5-1-df86f-release-keys" # device tree branch
 export VENDOR="motorola" # device manufacturer or vendor
 export TARGET="bootimage" # build method: recoveryimage, bootimage, vendorboot
 export TYPE="aosp" # recovery type: omni, twrp, something else
