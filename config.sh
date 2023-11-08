@@ -11,7 +11,7 @@ export DT_LINK="https://github.com/twrpdtgen/android_device_motorola_tonga" # de
 export DT_BRANCH="tonga_g-user-12-S3RQS32.20-42-10-12-5-1-df86f-release-keys" # device tree branch
 export VENDOR="motorola" # device manufacturer or vendor
 export TARGET="bootimage" # build method: recoveryimage, bootimage, vendorboot
-export TYPE="omni" # recovery type: omni, twrp, something else
+export TYPE="aosp" # recovery type: omni, twrp, something else
 
 # you dont need to edit these
 export SYM="_"
