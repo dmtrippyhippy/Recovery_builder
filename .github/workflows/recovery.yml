@@ -32,7 +32,7 @@ jobs:
          run: |
               source config.sh
               cd work
-              . build/envsetup.sh && lunch aosp_tonga-eng && export ALLOW_MISSING_DEPENDENCIES=true && mka $TARGET -j`nproc`
+              . build/envsetup.sh && lunch omni_tonga-eng && export ALLOW_MISSING_DEPENDENCIES=true && mka $TARGET -j`nproc`
 
        - name: Making file
          run: |
